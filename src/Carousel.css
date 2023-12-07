@@ -1,0 +1,22 @@
+.carouselContainer{
+    margin-top: 80px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.carCard {
+    padding-top: 3%;
+    padding-bottom: 5%;
+    background-color: rgba(33, 33, 34, 0.524);
+    color: aliceblue;
+    text-shadow: 1rem 1rem 1rem black;
+    border-radius: 3%;
+  }
+  
+  /* Estilos para las imágenes dentro del carousel slick */
+  .carCard img {
+    display: block;
+    margin: 0 auto; /* Alinea la imagen horizontalmente al centro */
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen según tus necesidades */
+    max-height: 100%; /* Ajusta la altura máxima de la imagen según tus necesidades */
+  }
